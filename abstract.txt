@@ -1,0 +1,141 @@
+Teaching Programming with Python and PyGame
+
+Dr. Naomi Ceder
+Mr. Nathan Yergler
+Canterbury School
+Fort Wayne, IN
+
+Summary:
+
+At Canterbury School we have taught Python to all of our 9th and 10th
+graders as part of a required basic computer skills course, and also
+to experienced programmers in a semester elective and in a 3 week
+May-Term course on game programming. This paper presents our reasons
+for adding Python to the curriculum and our evaluation of Python as a
+part of a secondary school curriculum.
+
+Our hope in switching to Python in our computer skills course was to
+enable coverage of some basic programming concepts and problem solving
+skills without as much need to worry about the syntactic "baggage" of
+languages like C or Java. In this regard, Python has been very
+successful.
+
+In our advanced elective and our May-Term mini-course we wanted to
+introduce our students to a somewhat different style of programming
+language, and we wanted it to have sufficiently powerful libraries to
+make the creation of GUI and network applications easier, allowing
+more time to concentrate on program design and logic. In general, we
+have been happy with Python in these courses, although there are some
+aspects of Python that are not helpful in our advanced classes.
+
+Academic Background:
+
+Canterbury is an independent college preparatory school in Fort Wayne,
+IN. Enrollment in the high school is approximately 260, and since the
+late 1980's Canterbury has offered electives and Advanced Placement
+courses in Pascal, C, and Java, with our students earning strong AP
+test scores and programming contest placements. The students attracted
+to this curriculum (and their parents) are very technologically savvy,
+and are demanding and critical consumers of our programming classes
+and of the programming languages used in them.
+
+In addition, since the high school's founding in the mid 1980's, a
+basic computing course has been required of all students. From the
+beginning a significant portion of this course has been programming.
+We has always felt that there are good reasons for requiring some
+exposure to programming for every student: first, a basic
+understanding of the nature of software and software development is
+useful for all users of software, and second, the process of writing
+programs is good practice in logical and critical thinking.
+
+The first language used for this course was Pascal, followed by C in
+the late 90's. Both languages have similar drawbacks as entre's to
+programming for non-technical students - rigid, but not obvious,
+syntactical rules (';', use of begin-end or '{}'), arbitrary (and
+sometimes inconsistent) use of symbols ("=", ":=", "==") and relaxed
+formatting rules that neither enforce nor encourage readable code
+layout. This has meant that students with little programming aptitude
+have found the programming segments of the course to be baffling
+ordeals to be endured, not learning experiences. With that in mind, we
+have been re-examining the programming curriculum over the past 5
+years, looking for ways to make coding more accessible to all
+students. The addition of a segment on HTML was one response and the
+switch to Python was another.
+
+Python for Non-programmers:
+
+While Python still has some idiosyncrasies that baffle a beginner,
+Python has several advantages as a first language. First of all, basic
+programs are simpler to write. Second, the very first programs can be
+quickly written in the interpreter without the need to worry about
+saving files and compiling. Finally the structure of Python requires
+beginners to write well formatted code with fewer hassles.
+
+Python for Experienced Programmers
+
+Python was first introduced for experienced programmers in May 2002
+aspart of May Term. May Term courses run for approximately 3 weeks
+following spring finals, before the end of the school year. May Term
+is designed to present students with course offerings and material
+that might not be practical for full semester courses.
+
+Our May Term class focused on game development using the PyGame
+libraries. The course was opened to anyone with any programming
+experience. This included students who had programmed in C++, Java and
+Python. However, even those with some Python experience had not been
+exposed to the full capabilities of Python and the available
+libraries. To facilitate an easy introduction to Python, we
+constructed a PyGame/Python tutorial using Tic-Tac-Toe. We chose
+Tic-Tac-Toe for several reasons. First, we felt it offered enough
+complexity to demonstrate PyGame's capabilities to our more advanced
+students who were initially put off by an "interpreted" language.
+Tic-Tac-Toe also has a relatively straight-forward game logic, which
+allowed the code to be de-constructed to teach Python (or refresh
+knowledge of) at the same time.
+
+In the fall of 2002 we first offered our Python elective. This was
+again offered to any student who had completed the Intro to Computers
+freshman requirement. Our goal was not only to teach a new programming
+language, but to give students the opportunity to create applications
+that were more complex and advanced than those created in our C++ or
+Java classes. In the past, teaching GUI or network programming just
+wasn't practical in C++. Python provided the power and learning curve
+to allow that. Our Python elective covered basic programming, socket
+programming, TkInter and PyGame. As a final project, students
+developed network-enabled checkers.
+
+Lessons Learned: Good and Bad
+
+Through both of these courses, Python has reinforced our opinion that
+it is a very powerful language that allows complex problems to be
+logically de-constructed. Non-programmers had fewer problems and
+headaches learning basic programming in Python, and those that
+continued into the semester elective the following year did very well.
+
+However, when teaching existing programmers Python we did run into
+some roadblocks. Many students coming from a C++ background were
+initially almost distrustful of indentation dictating code blocks. The
+other common problem was weak typing. Many of our C++ and Java
+programmers had become used to the compiler checking types for them.
+While they enjoyed the "auto-magic" casts from integer to character
+for output, comparing inputs to expected values was often responsible
+for simple bugs. Finally, documentation on topics such as PyGame,
+while complete, was often difficult for student programmers to
+understand.
+
+There are also areas where Python's ease of use make for unique
+teaching challenges. For example, while the indented-block syntax
+makes the block structure of a program easy to see, it doesn't
+actually encourage logical code. One student in particular decided
+that enclosing every few statements in a try...except block would be a
+"great" way to overcome those pesky run-time errors. In this case, the
+"ease" with which you can trap errors simply became a way for bugs to
+get lost. Python's interpreted nature also makes it somewhat
+susceptible to performance concerns where game programming is
+concerned. Additionally, with the AP exam in Java starting next year,
+Python will continue to be relegated to second-class standing. Any
+college preparatory school (or any school offering AP exams) will
+focus on Java simply for the benefit of their students. That said, we
+have found Python programming to be a very good introduction for
+non-programmers, and a useful teaching exercise for those with more
+experience.
